@@ -1,0 +1,126 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 490px;
+
+    width: 736px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-bottom: 50px;
+
+}
+
+.info .created {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 138px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.info .done {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 138px;
+    height: 19px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.created p {
+    width: 106px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--Blue);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.done p {
+    /* Auto layout */
+    width: 78px;
+    height: 17px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--Purple);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.counter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 4px;
+    width: 45px;
+    height: 19px;
+    background: var(--Gray-400);
+    border-radius: 999px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.created .counter p {
+    width: 8px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--Gray-100);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.done .counter p {
+    width: 40px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--Gray-100);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
